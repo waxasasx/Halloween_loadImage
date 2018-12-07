@@ -3,10 +3,10 @@ PImage img;
 void setup(){
   size(1000,500);
   img=loadImage("pumpkins-1.png");
-  image(img,0,0,1000,500);
+  noLoop();
 }
 void draw()
-{ 
+{ image(img,0,0,1000,500);
 }
 void  mouseDragged(){
   noStroke();

@@ -2,16 +2,16 @@
 PImage img;
 void setup(){
   size(1000,500);
-  img=loadImage("pumpkins.png");
+  img=loadImage("pumpkins-1.png");
   image(img,0,0,1000,500);
 }
-void draw(){
+void draw()
+{
+
 }
-  
 void  mouseDragged(){
   blendMode(OVERLAY);
   noStroke();
   fill(255,255,0);
   ellipse(mouseX,mouseY,10,10);
-
 }

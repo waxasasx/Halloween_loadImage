@@ -9,6 +9,6 @@ void draw()
 }
 void  mouseDragged(){
   int a= blendColor(get(mouseX,mouseY),color(255, 200, 25),OVERLAY);
-  fill(a)
-  ellipse(mouseX,mouseY,10,10
+  fill(a);
+  ellipse(mouseX,mouseY,10,10);
 }
